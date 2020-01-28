@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:heiwais25/layout-practice.git",
+  "author": "jonghyun <heiwais25@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:first": "parcel first/index.html"
+  },
+  "devDependencies": {
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-color-mod-function": true
+    }
+  }
+}
