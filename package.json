@@ -6,7 +6,8 @@
   "author": "jonghyun <heiwais25@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start:first": "parcel first/index.html"
+    "start:first": "parcel first/index.html",
+    "start:second": "parcel second/index.html"
   },
   "devDependencies": {
     "postcss-color-mod-function": "^3.0.3",
